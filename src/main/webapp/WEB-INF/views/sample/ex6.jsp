@@ -17,7 +17,7 @@ var result = '${result}';
 if(result === 'SUCCESS'){
 	alert("AAA");
 }
-
+/*abcd  */
 </script>
 
 
