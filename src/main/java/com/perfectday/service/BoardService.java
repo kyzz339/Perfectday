@@ -1,8 +1,8 @@
-package org.zerock.service;
+package com.perfectday.service;
 
 import java.util.List;
 
-import org.zerock.domain.BoardVO;
+import com.perfectday.domain.BoardVO;
 
 public interface BoardService extends GenericService<BoardVO, Integer> {
 

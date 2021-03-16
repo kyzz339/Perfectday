@@ -1,10 +1,11 @@
-package org.zerock.mapper;
+package com.perfectday.mapper;
 
 import java.util.List;
 
 import org.apache.ibatis.annotations.Delete;
 import org.apache.ibatis.annotations.Select;
-import org.zerock.domain.BoardVO;
+
+import com.perfectday.domain.BoardVO;
 
 public interface BoardMapper {
 

@@ -1,4 +1,4 @@
-package org.zerock.service;
+package com.perfectday.service;
 
 public interface GenericService<VO, K> {
 

@@ -1,10 +1,11 @@
-package org.zerock.controller;
+package com.perfectday.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.zerock.service.BoardService;
+
+import com.perfectday.service.BoardService;
 
 import lombok.AllArgsConstructor;
 import lombok.extern.log4j.Log4j;
@@ -15,11 +16,9 @@ import lombok.extern.log4j.Log4j;
 @AllArgsConstructor
 public class BoardController {
 
-	private BoardService service;
 	
-	@GetMapping("/list")
-	public void listAll(Model model) {
-		
-		model.addAttribute("list", service.listAll());
+	@GetMapping("/main")
+	public String main() {
+		return "/board/projectDetail";
 	}
 }

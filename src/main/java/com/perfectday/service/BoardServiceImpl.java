@@ -1,11 +1,12 @@
-package org.zerock.service;
+package com.perfectday.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.zerock.domain.BoardVO;
-import org.zerock.mapper.BoardMapper;
+
+import com.perfectday.domain.BoardVO;
+import com.perfectday.mapper.BoardMapper;
 
 import lombok.AllArgsConstructor;
 import lombok.Setter;
